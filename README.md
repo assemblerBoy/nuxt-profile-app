@@ -1,20 +1,19 @@
-# nuxt-profile-app
+# Простая авторизация на Vue.js 
 
-## Build Setup
+## Инструкция по установке
 
 ```bash
-# install dependencies
+# установка зависимостей
 $ npm install
 
-# serve with hot reload at localhost:3000
+# запуск рабочей сборки на localhost:3000
 $ npm run dev
 
-# build for production and launch server
+# сборка проекта и запуск сервера
 $ npm run build
 $ npm run start
 
-# generate static project
-$ npm run generate
+# запуск приложения в контейнере Docker 
+$ docker build -t assemblerBoy/nuxt-profile-app .
+$ docker run -d -p 3000:80 --name nuxt-profile-app assemblerBoy/nuxt-profile-app
 ```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
