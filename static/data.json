@@ -1,0 +1,7 @@
+{
+    "login": "Admin",
+    "password": "123",
+    "email": "evanyou@vuejs.org",
+    "name": "Evan You - Vuejs creator",
+    "image": "/evan.jpeg"
+}
