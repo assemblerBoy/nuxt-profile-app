@@ -3,8 +3,6 @@
 ## Инструкция по установке
 
 ```bash
-# mock данные для входа
-# Логин - Admin, Пароль - 123
 # установка зависимостей
 $ npm install
 
@@ -20,5 +18,5 @@ $ docker build -t assemblerBoy/nuxt-profile-app .
 $ docker run -d -p 3000:80 --name nuxt-profile-app assemblerBoy/nuxt-profile-app
 ```
 ## Mock данные для входа
-Логин: Admin
-Пароль: 123
+<p>Login: Admin</p>
+<p>Password: 123</p>
